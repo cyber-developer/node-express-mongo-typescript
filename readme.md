@@ -5,3 +5,5 @@
 
 // you can put connection string in src/server.ts line no. 9
 
+// USERS api base route
+// http://localhost:9000/api/v1/users
