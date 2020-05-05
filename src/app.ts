@@ -1,7 +1,5 @@
 import * as express from 'express'
 import * as mongoose from 'mongoose'
-import * as config from './configuration/appConfig.js'
-import * as alerts from './configuration/alerts.js'
 
 import {
   Application
