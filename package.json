@@ -4,7 +4,9 @@
   "description": "JSON based rest api using Typescript",
   "main": "dist/server.js",
   "scripts": {
-    "start": "ts-node src/server.ts"
+    "dev": "nodemon --watch src/**/*.ts --ignore src/**/*.spec.ts --exec ts-node src/server.ts",
+    "start": "ts-node dist/server.js",
+    "build": "tsc -p ."
   },
   "author": "Cyber Developer",
   "license": "ISC",
@@ -19,5 +21,8 @@
     "mongoose": "^5.9.12",
     "ts-node": "^8.10.1",
     "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
